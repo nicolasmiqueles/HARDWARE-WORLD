@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARDWARE WORLD</title>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/df7dbb996c.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <ul class="nav justify-content-center">
+            <li>
+                <a href="index.html" class="nav-link" id="index">INICIO</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link" id="hardware">HARDWARE</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link" id="software">SOFTWARE</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link" id="perifericos">PERIFÉRICOS</a>
+            </li>
+        </ul>
+
+        <div class="hero">
+            <h2>HARDWARE <span>WORLD</span></h2>
+            <h3><span>EL MUNDO DEL HARDWARE</span> AL ALCANCE DE TU MANO</h3>
+        </div>
+
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.67,91.28 C149.99,150.00 400.39,46.88 504.79,89.30 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+
+    <main>
+        <div class="slide-contenedor">
+            <div class="miSlider desvanecer">
+                <img src="IMAGES/slider1.jpg" alt="">
+            </div>
+            <div class="miSlider desvanecer">
+                <img src="IMAGES/slider2.jpg" alt="">
+            </div>
+            <div class="miSlider desvanecer">
+                <img src="IMAGES/slider4.jpg" alt="">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="anterior" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="siguiente" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </main>
+    <br>
+
+
+    <script src="JS/javascript.js"></script>
+</body>
+</html>
