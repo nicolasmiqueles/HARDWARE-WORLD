@@ -9,9 +9,9 @@ function posicionSlide(n) {
   muestraSlides((indice = n));
 }
 
-setInterval(function tiempo(){
-    muestraSlides(indice+=1)
-}, 5000); 
+setInterval(function tiempo() {
+  muestraSlides((indice += 1));
+}, 5000);
 
 // 5000 = 5 seg
 
@@ -37,5 +37,5 @@ function muestraSlides(n) {
   }
 
   slides[indice - 1].style.display = "block";
-  barras[indice - 1].className += ' active';
+  barras[indice - 1].className += " active";
 }
