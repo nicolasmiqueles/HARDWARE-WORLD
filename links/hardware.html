@@ -18,11 +18,13 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
 
 </head>
 
@@ -31,19 +33,19 @@
         <div class="hero">
             <ul class="nav justify-content-center">
                 <li>
-                    <a href="index.html" class="nav-link" id="index">INICIO</a>
+                    <a href="../index.html" class="nav-link" id="index">INICIO</a>
                 </li>
                 <li>
-                    <a href="links/hardware.html" class="nav-link" id="hardware">HARDWARE</a>
+                    <a href="hardware.html" class="nav-link" id="hardware">HARDWARE</a>
                 </li>
                 <li>
-                    <a href="links/software.html" class="nav-link" id="software">SOFTWARE</a>
+                    <a href="software.html" class="nav-link" id="software">SOFTWARE</a>
                 </li>
                 <li>
-                    <a href="links/perifericos.html" class="nav-link" id="perifericos">PERIFÉRICOS</a>
+                    <a href="perifericos.html" class="nav-link" id="perifericos">PERIFÉRICOS</a>
                 </li>
                 <li>
-                    <a href="links/sign.html" class="nav-link">REGISTRARSE</a>
+                    <a href="sign.html" class="nav-link">REGISTRARSE</a>
                 </li>
             </ul>
             <div class="titulo">
@@ -62,65 +64,47 @@
     </header>
 
     <main>
-
-        <section class="novedades contenedor">
-            <article class="contenedor-bg">
-                <div class="background">
-                    <img src="images/nvidia.jpg" class="background-img">
-                    <div class="background-txt">
-                        <h3 class="background-titulo">Nueva línea RTX 3080</h3>
-                        <p class="background-contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
-                            recusandae.</p>
-                    </div>
+        <section class="catalogo-hw">
+            <div class="catalogo">
+                <div class="producto">
+                    <img src="../images/producto1.png" alt="">
+                    <h3 class="titulo-producto">ZOTAC RTX 3080</h3>
+                    <p class="descripcion">Tarjeta de Video Zotac GeForce RTX 3080 Trinity 10GB GDDR6X 320-bit</p>
+                    <h3 class="precio-producto" id="precio-producto">$941.964</h3>
                 </div>
-                <div class="tarjeta-novedades">
-                    <div class="tarjeta-texto">
-                        <h3 class="tarjeta-titulo">Nuevas tarjetas gráficas<span class="point">.</span></h3>
-                        <p class="tarjeta-contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                            dolorum sit molestias ipsam at veritatis ut esse eius, dolor est!</p>
-                        <a href="links/hardware.html" class="tarjeta-boton">LEER MÁS</a>
-                    </div>
+                <div class="producto">
+                    <img src="../images/producto2.png" alt="">
+                    <h3 class="titulo-producto">AMD RYZEN 9 5950X</h3>
+                    <p class="descripcion">Procesador AMD RYZEN 9 5950X 3.4ghz 16 nucleos / 32 hilos</p>
+                    <h3 class="precio-producto" id="precio-producto">$799.999</h3>
                 </div>
-
-                <div class="tarjeta-novedades">
-                    <div class="tarjeta-texto">
-                        <h3 class="tarjeta-titulo">Noticias sobre AMD<span class="point">.</span></h3>
-                        <p class="tarjeta-contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-                            dolorum sit molestias ipsam at veritatis ut esse eius, dolor est!</p>
-                        <a href="links/hardware.html" class="tarjeta-boton">Ir a la página</a>
-                    </div>
+                <div class="producto">
+                    <img src="../images/producto3.png" alt="">
+                    <h3 class="titulo-producto">MSI RADEON RX 6800 XT</h3>
+                    <p class="descripcion">Tarjeta de video MSI Gaming Radeon RX 6800 XT 16GB GDRR6 256-Bit</p>
+                    <h3 class="precio-producto" id="precio-producto">$1.109.990</h3>
                 </div>
-                <div class="background">
-                    <img src="images/amd.jpg" class="background-img">
-                    <div class="background-txt2">
-                        <h3 class="background-titulo">Rumores sobre nueva línea de CPU</h3>
-                        <p class="background-contenido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-                            amet?</p>
-                    </div>
+                <div class="producto">
+                    <img src="../images/producto4.png" alt="">
+                    <h3 class="titulo-producto">GIGABYTE B550 AORUS ELITE</h3>
+                    <p class="descripcion">Placa madre GIGABYTE B550 socket AM4 ATX 4x DDR4</p>
+                    <h3 class="precio-producto" id="precio-producto">$199.999</h3>
                 </div>
-            </article>
+                <div class="producto">
+                    <img src="../images/producto5.png" alt="">
+                    <h3 class="titulo-producto">GIGABYTE P650B</h3>
+                    <p class="descripcion">Fuente de poder GIGABYTE P650B (650W) 80+ BRONZE</p>
+                    <h3 class="precio-producto" id="precio-producto">$69.495</h3>
+                </div>
+                <div class="producto">
+                    <img src="../images/producto6.png" alt="">
+                    <h3 class="titulo-producto">G.SKILL TRIDENT Z RGB</h3>
+                    <p class="descripcion">Memoria RAM 16 (2X8) GB G.Skill Trident Z 3600 Mhz DIMM</p>
+                    <h3 class="precio-producto" id="precio-producto">$179.990</h3>
+                </div>
+            </div>
         </section>
 
-        <div class="slide-contenedor">
-            <div class="miSlider desvanecer">
-                <img src="IMAGES/slider1.jpg" alt="">
-            </div>
-            <div class="miSlider desvanecer">
-                <img src="IMAGES/slider2.jpg" alt="">
-            </div>
-            <div class="miSlider desvanecer">
-                <img src="IMAGES/slider4.jpg" alt="">
-            </div>
-            <div class="direcciones">
-                <a href="#" class="anterior" onclick="avanzaSlide(-1)">&#10094;</a>
-                <a href="#" class="siguiente" onclick="avanzaSlide(1)">&#10095;</a>
-            </div>
-        </div>
-        <div class="barras">
-            <span class="barra active" onclick="posicionSlide(1)"></span>
-            <span class="barra" onclick="posicionSlide(2)"></span>
-            <span class="barra" onclick="posicionSlide(3)"></span>
-        </div>
 
         <section class="boletin contenedor">
             <h2>¿Quieres recibir las últimas noticias sobre el hardware?</h2>
